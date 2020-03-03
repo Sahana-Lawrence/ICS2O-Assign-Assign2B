@@ -7,11 +7,131 @@ body {
 #header {
   background-color: teal;
   color: white;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-  border:8px solid teal;
+  border:3px solid turquoise;
   font-size:400%;
 }
+
+.content {
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+  max-width: 2000px;
+  margin: 0 auto;
+  border: 5px solid teal;
+}
+
+h2 {
+  text-align: center;
+  font-family: courier;
+}
+ul, a p {
+  text-align: center;
+  font-family: courier;
+}
+
+h1 {
+  font-size: 60px;
+  padding-top: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  padding-top: 5px;
+  color: red;
+}
+
+li {
+  display: inline-block;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.main-pic {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  border: 3px solid teal;
+}
+
+blockquote {
+  text-align: center;
+  font-size: 22px;
+  font-family: "Indie Flower", cursive;
+  margin: 50px;
+  color: slateblue;
+}
+
+.noteworthy {
+  max-width: 760px;
+  padding: 20px;
+  margin: 0 auto;
+  clear: both;
+}
+
+.tl-img {
+  width: 200px;
+  height: 135px;
+  background-color: white;
+  border: 2px solid teal;
+  margin-right: 15px;
+  float: left;
+  margin-top: 10px;
+}
+
+.year{
+  font-size: 25px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.description {
+  font-size: 20px;
+  margin-top: 0px;
+  font-family: georgia;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+  margin: 20px
+} 
+
+a p:hover {
+  color: violet;
+}
+
+a p {
+  font-size: 20px;
+}
+
+.nav {
+  background-color: black;
+  position: relative;
+}
+
+li {
+  float: center;
+  color: teal;
+}
+
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+li a:hover {
+  background-color: teal;
+}
+
+
+
+
+
 .header {
   color:white;
   text-align:center;
@@ -20,6 +140,7 @@ body {
 }
 #footer {
   text-align:center;
+  font-size: medium;
 }
 .column {
   float: left;
@@ -57,7 +178,4 @@ p {
 }
 p1 {
   text-align:center;
-}
-b {
-  color:white;
 }
